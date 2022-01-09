@@ -4,7 +4,9 @@ import java.util.Scanner;
 
 public class Text01 {
     public static void main(String[] args) {
-
+        
+    while (true) {
+        
         System.out.println("请输入星期数:[1-7]");
         Scanner sc = new Scanner(System.in);
         int number = sc.nextInt();
@@ -26,5 +28,6 @@ public class Text01 {
         }else {
             System.out.println("您输入的数字不符合规定");
         }
+    }
     }
 }
